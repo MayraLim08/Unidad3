@@ -1,0 +1,67 @@
+body{
+    background-image: url(https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABX6DgRUqd6rSbmFo-hqmOiyY1ozYd8AnAejBxveoqJOJLYvSQkmljo0nU2Gi0HW_A2mo0T8DWMbBMnb3K2Q9R4K0PMPT.jpg?r=1e5);
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+header,footer{
+    background-color:black;
+    background-position: center;
+    border-radius: 4px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color:rgb(228, 224, 224);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 500px;
+    border-radius: 4px;
+}
+
+
+.Scont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+
+}
+
+.contenedor{
+    color: black;
+    width: 90%;
+    height: 90%;
+    border-radius: 3px;
+    display: flex;
+    flex-flow:wrap;
+    justify-content: center;
+
+}
+
+.uno h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:rgb(19, 7, 73) ;
+}
+
+.info{
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgba(62, 59, 78, 0.815);
+    text-align: center;
+    color: lightgray;
+    border-radius: 5px;
+    width: 1000px;
+    height: 60%;
+}
+
