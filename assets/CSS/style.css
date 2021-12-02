@@ -1,12 +1,16 @@
 body{
-    background-image: url(https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABX6DgRUqd6rSbmFo-hqmOiyY1ozYd8AnAejBxveoqJOJLYvSQkmljo0nU2Gi0HW_A2mo0T8DWMbBMnb3K2Q9R4K0PMPT.jpg?r=1e5);
-    background-size: cover;
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
+}
+
+.Pcont{
+    background-image: url(https://i.pinimg.com/originals/63/5e/a2/635ea2356b9e223098909e2ed31af2fe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header,footer{
@@ -26,14 +30,18 @@ h1{
     text-align: center;
     width: 500px;
     border-radius: 4px;
+    font-size: 40px;
 }
 
+.Pcont{
+    
+}
 
 .Scont{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 1300px;
 
 }
 
@@ -43,8 +51,8 @@ h1{
     height: 90%;
     border-radius: 3px;
     display: flex;
-    flex-flow:wrap;
     justify-content: center;
+    flex-wrap:wrap ;
 
 }
 
@@ -52,9 +60,13 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color:rgb(19, 7, 73) ;
+    background-color: rgba(173, 216, 230, 0.651);
 }
 
 .info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     font-family: cursive;
     font-size: 20px;
     background-color: rgba(62, 59, 78, 0.815);
@@ -62,6 +74,64 @@ h1{
     color: lightgray;
     border-radius: 5px;
     width: 1000px;
-    height: 60%;
+    height: 70%;
 }
 
+.lista{
+    border-top: 3px solid rgb(214, 214, 214);
+    height: 50px;
+    background-color: rgba(77, 19, 143, 0.877);
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    outline: steelblue;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    list-style: none;
+
+    
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color:rgb(231, 225, 224) ;
+}
+
+a:hover{
+    color: rgb(255, 97, 111);
+}
+
+.imagen{
+    display: flex;
+    width: 290px;
+
+}
+
+.img{
+    width: 250px;
+}
+
+.titulo{
+    width: 600px;
+}
+
+.juntos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-img img{
+    display: flex;
+    text-align: center;
+    outline: 5px solid blueviolet;
+    width: 500px;
+}
