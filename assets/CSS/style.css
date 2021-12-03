@@ -33,9 +33,7 @@ h1{
     font-size: 40px;
 }
 
-.Pcont{
-    
-}
+
 
 .Scont{
     display: flex;
@@ -134,4 +132,18 @@ a:hover{
     text-align: center;
     outline: 5px solid blueviolet;
     width: 500px;
+}
+
+/*PERSONAJES.HTML*/
+
+.contP{
+   background-image: url(https://2.bp.blogspot.com/-Wm-4A_fnpqk/Wdkvr_w8NNI/AAAAAAAACJE/ZM3oOQvdiUACMAe4MvNiOkdePfUAO1iqACLcBGAs/s1600/Rick-and-Morty-%25D1%2584%25D1%258D%25D0%25BD%25D0%25B4%25D0%25BE%25D0%25BC%25D1%258B-findo-artist-3934258.jpeg);
+   background-size: cover;
+   margin: 0;
+   min-height: 100vh;
+
+}
+
+.personaje{
+
 }
