@@ -24,15 +24,24 @@ footer{
     justify-content: space-around;
 }
 
+.titulo{
+    outline: 5px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h1{
-    color:rgb(228, 224, 224);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightskyblue;
+    text-shadow: 0 0 0 5px lightgreen;
+    font-family: 'Creepster', cursive;
     text-align: center;
     width: 500px;
     border-radius: 4px;
-    font-size: 40px;
+    font-size: 70px;
+    outline:5px solid violet;
+   
 }
-
 
 
 .Scont{
@@ -110,12 +119,13 @@ a:hover{
 
 .imagen{
     display: flex;
-    width: 290px;
+    width: 300px;
+    outline: 5px solid green;
 
 }
 
 .img{
-    width: 250px;
+    width: 300px;
 }
 
 .titulo{
@@ -141,9 +151,17 @@ a:hover{
    background-size: cover;
    margin: 0;
    min-height: 100vh;
+   display: flex;
+   justify-content: center;
+
 
 }
 
-.personaje{
+.contS{
+    width: 80%;
+    background-color: black;
+    box-shadow: 5px solid crimson;
+    display : flex;
+    justify-content: center;
 
 }
