@@ -148,10 +148,8 @@ a:hover{
 /*PERSONAJES.HTML*/
 
 .contT{
-    height: 2000px;
-    background-image: url(https://2.bp.blogspot.com/-Wm-4A_fnpqk/Wdkvr_w8NNI/AAAAAAAACJE/ZM3oOQvdiUACMAe4MvNiOkdePfUAO1iqACLcBGAs/s1600/Rick-and-Morty-%25D1%2584%25D1%258D%25D0%25BD%25D0%25B4%25D0%25BE%25D0%25BC%25D1%258B-findo-artist-3934258.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 3000px;
+   background-color: sandybrown;
     display: flex;
     justify-content: center;
 }
@@ -159,8 +157,8 @@ a:hover{
 .contP{
    display: flex;
    justify-content: center;
-   outline: 5px solid blue;
-   height: 2000px;
+   
+   height: 3000px;
 }
 
 .contS{
@@ -168,29 +166,57 @@ a:hover{
    
     background-color: black;
     display : flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
 
+    justify-content: center;
+
+}
+
+.contC{
+    width: 85%;
+    outline: 5px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+   
+    
 }
 
 .infor{
-    color: white;
-    outline: 5px solid magenta;
-    height: 50%;
-    width: 60%;
+    color: black;
+    background-color: rgb(104, 41, 187);
+    border-radius: 5px;
+    height: 18%;
+    width: 75%;
+    font-family: cursive;
+    text-align: center;
+   
 
 }
 
+
+
 .personaje{
-    outline: 5px solid blueviolet;
-    height: 30%;
-    width: 20%;
+    
+    height: 16%;
+    width: 30%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    outline: 5px solid gray;
 }
 
 .personaje img{
-    outline: 5px solid blue;
-    width: 200px;
+    
+    width: 160px;
+    height: 200px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 10px solid rgba(0, 255, 255, 0.938);
+   
+}
+.imgp{
+    width: 160px;
+    height: 60%;
+    
 }
