@@ -26,23 +26,19 @@ footer{
     justify-content: space-around;
 }
 
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 h1{
-    color:lightskyblue;
-    text-shadow: 0 0 0 5px lightgreen;
+    -webkit-text-stroke: 1px rgb(236, 217, 49);
+    color:rgb(39, 107, 163);
     font-family: 'Creepster', cursive;
     text-align: center;
-    width: 500px;
-    border-radius: 4px;
-    font-size: 70px;
-   
+    width:500px;
+    height: 60%;
+    font-size: 50px;
+    border-radius: 5px;
    
 }
+
 
 
 .Scont{
@@ -85,29 +81,6 @@ h1{
     height: 70%;
 }
 
-.lista{
-    border-top: 3px solid rgb(214, 214, 214);
-    height: 50px;
-    background-color: rgba(77, 19, 143, 0.877);
-}
-ul{
-    display: flex;
-    justify-content: space-around;
-    outline: steelblue;
-    align-items: center;
-}
-
-li{
-    display: inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 200px;
-    height: 30px;
-    text-align: center;
-    list-style: none;
-
-    
-}
-
 a{
     display: block;
     text-decoration: none;
@@ -116,26 +89,6 @@ a{
 
 a:hover{
     color: rgb(255, 97, 111);
-}
-
-.imagen{
-    display: flex;
-    width: 300px;
-
-}
-
-.img{
-    width: 300px;
-}
-
-.titulo{
-    width: 600px;
-    background-color: black;
-}
-
-.juntos{
-    display: flex;
-    justify-content: space-between;
 }
 
 .info-img img{
@@ -149,7 +102,8 @@ a:hover{
 
 .contT{
     height: 3000px;
-   background-color: sandybrown;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=4518&resolucion=3840x2400);
+    background-size:99%;
     display: flex;
     justify-content: center;
 }
@@ -157,22 +111,23 @@ a:hover{
 .contP{
    display: flex;
    justify-content: center;
-   
+   align-items: center;
    height: 3000px;
 }
 
 .contS{
     width: 80%;
-   
-    background-color: black;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.384);
     display : flex;
-
     justify-content: center;
+    align-items: center;
 
 }
 
 .contC{
     width: 85%;
+    height: 98%;
     outline: 5px solid blue;
     display: flex;
     flex-wrap: wrap;
@@ -220,3 +175,35 @@ a:hover{
     height: 60%;
     
 }
+
+.elec{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    
+}
+
+.co-titulo{
+    height: 110px;
+    background-color: rgba(88, 26, 138, 0.692);
+    display: flex ;
+    justify-content: space-between;
+    border-bottom: 10px solid rgb(138, 52, 207);
+    border-radius: 5px;
+}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    width: 190px;
+    display: flex;
+}
+
+
