@@ -3,6 +3,7 @@ window.onload = function () {
 
     var chart = new CanvasJS.Chart("chartContainer", {
         animationEnabled: true,
+        backgroundColor: '#ffffff9f',
         title:{
             text: "Rick and Morty"
         },
@@ -107,5 +108,4 @@ window.onload = function () {
         }]
     });
     chart.render();
-    
-    }
+};
